@@ -10,7 +10,7 @@ function App() {
     <Header/>
       <Routes>
         <Route path="/" element={<ProductListing />} />
-        <Route path="product/:product_id" element={<ProductDetail />} />
+        <Route path="product/:product_Id" element={<ProductDetail />} />
         <Route path="*" element={<NotFound />}/>
         <Route/>
       </Routes>
